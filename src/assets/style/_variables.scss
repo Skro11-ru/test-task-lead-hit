@@ -1,0 +1,37 @@
+/* It's a font weights. */
+$font-thin: 100;
+$font-extra-light: 200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+$font-ultra-bold: 900;
+
+/* It's a font sizes. */
+$font-size: 16px;
+$font-size-h1: 40px;
+$font-size-h2: 32px;
+$font-size-h3: 24px;
+$font-size-h4: 18px;
+$font-size-h5: 16px;
+$font-size-h6: 16px;
+
+/* It's a color scheme (converter: https://colorscheme.ru/color-converter.html). */
+$color-primary: hsl(184, 51%, 54%);
+$color-secondary: hsl(0, 0%, 100%);
+$color-link: hsl(216, 98%, 52%);
+
+/* It's a breakpoints for responsive design. */
+$xxs: 319px; // 320
+$xs: 479px; // 480
+$sm: 575px; // 576
+$md: 767px; // 768
+$lg: 1023px; // 1024
+$xl: 1199px; // 1200
+$xxl: 1279px; // 1280
+$xxxl: 1399px; // 1400
+$xxxxl: 1439px; // 1440
+
+// Different

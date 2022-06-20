@@ -1,0 +1,50 @@
+/* Mixin that can be used to create a shadow. */
+@mixin shadow {
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Mixin that can be used to create a transition. */
+@mixin transition {
+  transition: all 0.1s linear;
+}
+
+/* Mixin that can be used to create a button. */
+@mixin button($colorText, $backgroundColor) {
+  margin: auto;
+  font-family: sans-serif;
+  background: $backgroundColor;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  color: $colorText;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  @include transition;
+  &:hover {
+    @include shadow;
+  }
+  &:active {
+    background: transparentize($backgroundColor, 0.5);
+  }
+}
+
+/* Mixin that can be used to create a link. */
+@mixin link($color) {
+  color: $color;
+  @include transition;
+  &:hover {
+    color: transparentize($color, 0.4);
+  }
+  &:active {
+    color: transparentize($color, 0.7);
+  }
+}
