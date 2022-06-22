@@ -1,5 +1,7 @@
 <template>
-  <div>NotFoundPage</div>
+  <div class="not-found-page">
+    <h1>404 page</h1>
+  </div>
 </template>
 
 <script lang="ts">
@@ -11,4 +13,13 @@ import { Component, Vue } from "vue-property-decorator";
 export default class NotFoundPage extends Vue {}
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.not-found-page {
+  display: flex;
+  height: 100%;
+  h1 {
+    margin: auto;
+    font-size: $font-size-large;
+  }
+}
+</style>
