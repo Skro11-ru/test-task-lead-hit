@@ -10,18 +10,23 @@ $font-extra-bold: 800;
 $font-ultra-bold: 900;
 
 /* It's a font sizes. */
-$font-size: 16px;
+$font-size-text: 16px;
 $font-size-h1: 40px;
 $font-size-h2: 32px;
 $font-size-h3: 24px;
 $font-size-h4: 18px;
 $font-size-h5: 16px;
 $font-size-h6: 16px;
+$font-size-large: 70px;
 
 /* It's a color scheme (converter: https://colorscheme.ru/color-converter.html). */
-$color-primary: hsl(184, 51%, 54%);
-$color-secondary: hsl(0, 0%, 100%);
+$color-primary: hsl(275.42, 96.6%, 53.92%);
+$color-secondary: hsl(276, 83.33%, 88.24%);
+$color-text: hsl(0, 0%, 70%);
 $color-link: hsl(216, 98%, 52%);
+$color-disabled: hsl(0, 0%, 50%);
+$color-error: hsl(4.05, 75.81%, 57.84%);
+$color-success: hsl(139.8, 49.5%, 60.39%);
 
 /* It's a breakpoints for responsive design. */
 $xxs: 319px; // 320
