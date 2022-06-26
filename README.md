@@ -2,7 +2,7 @@
 
 > [Link](https://skro11-ru.github.io/test-task-lead-hit/)
 
-![](../../../Downloads/preview.gif)
+![](public/preview.gif)
 
 ## Project setup
 
