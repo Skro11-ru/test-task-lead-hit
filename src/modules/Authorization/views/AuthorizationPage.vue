@@ -190,7 +190,7 @@ export default class AuthorizationPage extends Vue {
   }
 
   &__button {
-    @include button($color-secondary, $color-primary);
+    @include button($color-primary, $color-secondary);
     display: flex;
     margin-top: 50px;
   }

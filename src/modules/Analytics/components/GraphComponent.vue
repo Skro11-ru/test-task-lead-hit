@@ -53,8 +53,8 @@ export default class GraphComponent extends Vue {
     series.dataFields.valueY = "visits";
     series.tooltipText = "{valueY.value}";
     series.fillOpacity = 1;
-    series.fill = am4core.color("#E6C8FA");
-    series.stroke = am4core.color("#9E18FB");
+    series.fill = am4core.color("#0099FFFF");
+    series.stroke = am4core.color("#003366FF");
     series.strokeOpacity = 1;
     series.strokeWidth = 3;
 
@@ -63,7 +63,7 @@ export default class GraphComponent extends Vue {
 
     // Adding a circle bullet to the chart.
     let bullet = series.bullets.push(new am4charts.CircleBullet());
-    bullet.fill = am4core.color("#9E18FB");
+    bullet.fill = am4core.color("#0099FFFF");
     bullet.strokeWidth = 3;
 
     // Removing the grid lines from the chart.
